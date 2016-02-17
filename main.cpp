@@ -20,7 +20,7 @@ int main(int argc, char** argv) {
     while(!done) {
 
         char i = 0;
-        cout << "  A B C " << endl;
+        cout << "  1 2 3 " << endl;
         cout << " -------" << endl;
         cout << "1";
 
@@ -35,9 +35,9 @@ int main(int argc, char** argv) {
             }
         }
 
-        cout << endl << "Enter X coordinate (A, B or C):";
+        cout << endl << "Enter X coordinate (1, 2 or 3):";
         cin >> x_char;
-        x = (x_char == 'A' ? 0 : (x_char == 'B' ? 1 : 2));
+        x = (x_char == '1' ? 0 : (x_char == '2' ? 1 : 2));
 
         cout << endl << "Enter Y coordinate (1, 2 or 3):";
         cin >> y;
